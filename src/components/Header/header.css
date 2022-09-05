@@ -1,0 +1,110 @@
+.nav-main-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ecommerce-logo-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    width:100%
+}
+.trendz-image{
+    width: 160px;
+    height: 50px;;
+}
+.logout-image{
+    width: 30px;
+    height: 30px;
+}
+.nav-unorder-container-for-mobile{
+    list-style: none;
+    display: inline-flex;
+    background-color:  #e6f6ff;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+}
+.home-image{
+    width: 30px;
+    height: 30px;
+    filter: brightness(0);
+}
+.product-image{
+    width: 30px;
+    height: 30px;
+    filter: brightness(0);
+}
+.cart-image{
+    width: 30px;
+    height: 30px;
+    filter: brightness(0);
+}
+.nav-unorder-container-for-desktop{
+    display: none;
+}
+.logout-button{
+    display: none;
+}
+.trendz-imagee{
+    display: none;
+}
+
+@media screen and (min-width:769px) {
+    .nav-list-desktop{
+        list-style:none;
+    }
+    .ecommerce-logo-section{
+        display: none;
+
+    }
+    .nav-unorder-container-for-mobile{
+        display: none;
+    }
+    
+    .nav-unorder-container-for-desktop{
+        display: inline-flex;
+        
+    }
+    .navigation{
+ 
+        display: flex;
+        align-items: center;
+    }
+    .header-container{
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .trendz-imagee{
+        display: block;
+        width: 260px;
+        height:60px;
+    }
+    .naviation-link{
+        text-decoration: none;
+        font-size: 140%;
+        font-family: #64748b;
+    }
+    .nav-list-desktop{
+        margin: 20px;
+        outline: none;
+        
+    }
+    .logout-button{
+        background-color: blue;
+        color:white;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+        display: block;
+ 
+
+    }
+}

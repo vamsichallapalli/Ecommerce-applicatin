@@ -1,0 +1,92 @@
+
+.category-unorderlist{
+   list-style: none;
+  
+}
+.category-heading{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 38px;
+}
+.category-container{
+    
+    margin-left: 160px;
+}
+.btn-color{
+    color:blue
+}
+.category-list{
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    color:#475569
+}
+
+.category-list:active{
+    color:blue
+}
+.all-filter-group-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* css styles for rating */
+
+.rating-list{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right:40px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      height: 30px;
+      width: 170px;
+}
+.up-button{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.rating-image{
+ height: 90px;
+ width: 140px;
+
+}
+.container-for-rating{
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.clear-filter-button button{
+    position: relative;
+    left:200px;
+    background-color: transparent;
+    border: 1px solid blue;
+    width:90px;
+    font-size: 15px;
+    border-radius: 5px;
+    align-items: center;
+    font-family: 700;
+    color: blue;
+    cursor: pointer;
+    padding: 5px;
+}
+@media screen and (max-width:769px){
+    .category-container{
+        margin-left: 10%;
+    }
+    .container-for-rating{
+        margin-left: 15%;
+    }
+    .clear-filter-button button{
+       
+        left: 15%;
+    }
+}

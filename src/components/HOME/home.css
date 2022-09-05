@@ -1,0 +1,72 @@
+.home-container{
+    
+    margin: 25px;
+
+}
+@media screen and (max-width:768px){
+    .sub-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+.clothes-noticed-images{
+    width:240px;
+    height:300px;
+    margin-top: 10px;
+}
+.clothes-noticed-heading{
+  text-indent:inherit;
+}
+.home-description{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#64748b;
+    text-align:justify;
+    text-indent:initial;
+    margin-top: 10px;
+}
+.shop-now-button{
+    background-color:  #0967d2;
+    color:white;
+    width: 320px;
+    height:30px;
+    margin-top:20px;
+    border: none;
+    outline:none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.clothes-noticed-images-desktop{
+    display: none;
+}
+@media screen  and (min-width:769px){
+    .clothes-noticed-images{
+        display: none;
+    }
+   .home-container{
+    display: flex;
+    flex-direction: row;
+    margin: 65px;
+   }
+   .clothes-noticed-images-desktop{
+    display: block;
+    width: 520px;
+    height: 480px;
+    margin-left: 30px;
+   }
+   .sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.shop-now-button{
+    width:100px
+    
+}
+    
+}

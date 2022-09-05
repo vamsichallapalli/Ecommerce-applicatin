@@ -1,0 +1,14 @@
+.unordered-productdeals-list{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 50vh;
+
+    margin-top: 20px;
+
+}
+.register-prime-image{
+    width: 100%;
+}

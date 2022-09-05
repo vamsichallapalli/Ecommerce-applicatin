@@ -1,0 +1,139 @@
+.specified-image{
+    width:95%;
+    border-radius: 20px;
+}
+.container-for-specified-product{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+@media screen and (min-width:769px) {
+    .container-for-specified-product{
+        flex-direction: row;
+    }
+    .specified-image{
+        width: 40%;
+        margin-right: 30px;
+    }
+    .similar-products-unorderlist{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+.specified-product-title{
+    color:#616e7c;
+    font-size:30px;
+    margin-bottom: 15px;
+}
+.specified-rating-container{
+   
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.specified-rating-container div{
+    background-color:  #3b82f6;
+    display: flex;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    
+}
+.specified-rating-container p {
+    font-size: 20px;
+}
+.specified-product-description{
+    font-size: 22px;
+    color: #616e7c;
+    filter: brightness(0.3);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.star{
+    width:22px;
+}
+.span{
+    color:#616e7c;
+    font-weight:500;
+}
+.button-desc{
+    width:30px;
+    height: 30px;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 15px;
+}
+.button-inc{
+    width:30px;
+    height: 30px;
+    font-size: 25px;
+    align-items: center;
+}
+.brand-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.increment-decrement-container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button-value{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.add-to-cart-button{
+    background-color:#3b82f6;
+    width: 110px;
+    color:white;
+    font-size: 15px;
+    padding: 13px;
+    border-radius: 6px;
+    border: none;
+}
+.special-product-title{
+    font-size: 30px;
+    margin-left:45px;
+}
+.Loaders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:50%
+}
+.error-image{
+    width:100%;
+    height:50vh;
+    
+}
+@media screen  AND (min-width:769px){
+    .error-image{
+        width: 50%;
+    }
+    
+}
+.http-failure-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+.continue-shopping-button{
+    background-color: blue;
+    border: none;
+    height: 40px;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}

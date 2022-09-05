@@ -1,0 +1,66 @@
+.product-header-container{
+ display: flex;
+ flex-direction: column;
+ font-size: 15px;
+ justify-content: flex-start;
+
+}
+@media screen and (min-width:769px){
+    .product-header-container{
+
+       flex-direction: row;
+       justify-content: space-between;
+       text-align: center;
+        width: 90%;
+    }
+    
+    
+    .all-products-heading{
+        margin-top: 20px;
+        margin-right: 80px;
+        font-family:'Times New Roman', Times, serif
+    }
+    
+}
+.sort-by-para{
+    font-size: 22px;
+}
+.input-search{
+    width: 240px;
+    height:35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:  #d3e2f3;
+    font-size: 15px;
+    margin-left:165px;
+    margin-top:30px;
+    padding: 10px;
+
+}
+
+    
+
+.sort-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 40px;
+}
+.each-option-value{
+    font-size: 20px;
+    
+    font-weight: solid;
+}
+.product-header-container select{
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin-left: 16px;
+}
+.filter-icon{
+    font-size: 25px;
+}
